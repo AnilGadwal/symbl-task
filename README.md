@@ -47,7 +47,7 @@ To open `index.html` in your browser double-click the file.
 
 The web application is also mobile responsive. 
 
-- [Code File](ReactJS_api_call)
+- [Code File](./reactjs_api_call/)
 - [Hosted Site](https://symbl-task.web.app)
 
 <br>
