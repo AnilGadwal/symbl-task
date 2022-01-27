@@ -1,0 +1,35 @@
+.card{
+    padding-top: 2vh;
+    border-radius: 0 3rem;
+    border: 1px solid rgb(136, 130, 130);
+    min-width: 25vw;
+    cursor: pointer;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover{
+    border-radius: 0;
+    border: 1px solid rgb(29, 101, 173);
+    font-size: 0.9rem;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    min-width: 26vw;
+}
+
+li,h4,h1{
+    color: white;
+    list-style: none;
+}
+
+li{
+    font-size: 1.5rem;
+    padding: 0.7rem;
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        min-width: 80vw;
+    }
+  }
